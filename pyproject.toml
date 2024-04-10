@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "renewable-hub"
+version = "0.1.0"
+description = "La plataforma permitiría a los usuarios invertir en proyectos de energía renovable, como parques eólicos, granjas solares, instalaciones de biomasa, etc., utilizando la tecnología blockchain de Tron para garantizar la transparencia, la seguridad y la descentralización de las transacciones financieras."
+authors = ["Nicola Gernone <nicola.gernone02@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "renewable_hub"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
